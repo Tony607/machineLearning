@@ -31,8 +31,9 @@ np.random.seed(0)
 X = np.random.normal(size=n_samples)
 y = (X > 0).astype(np.float)
 X[X > 0] *= 4
+#add noise
 X += .3 * np.random.normal(size=n_samples)
-
+#put X into a n_samples x 1 matrix
 X = X[:, np.newaxis]
 # run the classifier
 clf = linear_model.LogisticRegression(C=1e5)
@@ -41,7 +42,9 @@ clf.fit(X, y)
 # and plot the result
 pl.figure(1, figsize=(4, 3))
 pl.clf()
+#X.ravel() will turn X into a flattened array
 pl.scatter(X.ravel(), y, color='black', zorder=20)
+#Return evenly spaced numbers over a specified interval.
 X_test = np.linspace(-5, 10, 300)
 
 
