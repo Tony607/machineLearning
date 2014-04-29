@@ -1,11 +1,15 @@
 eclipse.preferences.version=1
 encoding//src/linearRegression.py=utf-8
+encoding//src/playground.py=utf-8
 encoding//src/plot_cluster_iris.py=utf-8
+encoding//src/plot_digits_agglomeration.py=utf-8
+encoding//src/plot_digits_pipe.py=utf-8
 encoding//src/plot_iris_dataset.py=utf-8
 encoding//src/plot_iris_logistic.py=utf-8
 encoding//src/plot_lena_compress.py=utf-8
 encoding//src/plot_logistic.py=utf-8
 encoding//src/plot_ols.py=utf-8
+encoding//src/plot_pca_3d.py=utf-8
 encoding//src/plot_svm_iris.py=utf-8
 encoding//src/plot_svm_kernels.py=utf-8
 encoding//src/plot_svm_margin.py=utf-8
